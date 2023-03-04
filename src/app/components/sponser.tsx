@@ -1,0 +1,46 @@
+export default function Sponser(): JSX.Element {
+  return (
+    <div className='container-sponser grid grid-cols-[repeat(4,auto)] gap-12 justify-between'>
+      <img
+        className='img-sponer'
+        src='https://res.cloudinary.com/thirus/image/upload/v1634556259/logos/logoipsum-5_wqq52e.svg'
+        alt=''
+      />
+      <img
+        className='img-sponer'
+        src='https://res.cloudinary.com/thirus/image/upload/v1634556262/logos/logoipsum-8_euk84k.svg'
+        alt=''
+      />
+      <img
+        className='img-sponer'
+        src='https://res.cloudinary.com/thirus/image/upload/v1634556260/logos/logoipsum-1_frjjk6.svg'
+        alt=''
+      />
+      <img
+        className='img-sponer'
+        src='https://res.cloudinary.com/thirus/image/upload/v1634556262/logos/logoipsum-9_hqrvx7.svg'
+        alt=''
+      />
+      <img
+        className='img-sponer'
+        src='https://res.cloudinary.com/thirus/image/upload/v1634564578/logos/logoipsum-13_zvuric.svg'
+        alt=''
+      />
+      <img
+        className='img-sponer'
+        src='https://res.cloudinary.com/thirus/image/upload/v1634556259/logos/logoipsum-2_gxwamm.svg'
+        alt=''
+      />
+      <img
+        className='img-sponer'
+        src='https://res.cloudinary.com/thirus/image/upload/v1634564391/logos/logoipsum-11_bhrqq2.svg'
+        alt=''
+      />
+      <img
+        className='img-sponer'
+        src='https://res.cloudinary.com/thirus/image/upload/v1634564391/logos/logoipsum-12_hskbxm.svg'
+        alt=''
+      />
+    </div>
+  );
+}
