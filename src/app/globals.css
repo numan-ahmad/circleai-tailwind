@@ -11,7 +11,9 @@
 @layer components {
   header {
     @apply bg-white py-5 px-6;
-    min-width: 767px;
+  }
+  .header-ul {
+    @apply text-center -mx-5 md:mx-0;
   }
   .header-ul li {
     @apply inline-block mx-5;
@@ -24,17 +26,13 @@
 @layer components {
   .containerMain {
     @apply max-w-none w-auto p-12;
-    height: 500px;
   }
   .newone {
     height: 500px;
-    width: 700px;
+    width: 500px;
   }
   h1 {
     @apply text-4xl leading-tight;
-  }
-  p {
-    @apply mt-4;
   }
   button {
     @apply inline-block mt-4 py-3 px-9 bg-red-500 text-white font-bold rounded-full;
@@ -69,7 +67,7 @@
 
 @layer components {
   .containerBlog {
-    @apply mx-auto p-40;
+    @apply mx-auto;
     background-color: aliceblue;
   }
   h2 {

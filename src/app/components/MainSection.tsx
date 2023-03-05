@@ -1,12 +1,12 @@
 export default function ManinSection(): JSX.Element {
   return (
-    <section className='containerMain grid grid-cols-2 gap-16 items-center'>
+    <section className='containerMain w-full flex flex-col md:flex-row items-center'>
       <img
-        className='newone'
+        className='newone flex-1'
         src='https://res.cloudinary.com/thirus/image/upload/v1634585194/images/details-1_e7ojp9.svg'
         alt=''
       />
-      <div className=''>
+      <div className='h-1/2 md:w-1/2 md:h-sm p-20'>
         <h1>
           Perfect solution
           <br />

@@ -1,6 +1,6 @@
 export default function Blogs(): JSX.Element {
   return (
-    <div className='containerBlog grid grid-cols-[repeat(auto-fit,minmax(25rem,1fr))] gap-8'>
+    <div className='containerBlog grid grid-cols-[repeat(auto-fit,minmax(25rem,1fr))] gap-8 md:p-40'>
       <div className='item'>
         <img src='https://picsum.photos/400/300' alt='' />
         <div>
